@@ -1,0 +1,13 @@
+{
+  "name": "trajectalabs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TrajectaLabs Software Academy website",
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name trajectalabs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
